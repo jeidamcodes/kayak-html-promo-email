@@ -1,0 +1,39 @@
+{
+    "title": "Fly to Ireland with less than $700 round trip plus more!",
+    "dealOfTheDay": {
+        "location": "Ireland",
+        "description": "8 days with air, hotel, and car rental. Use promo code CFDL110 to save. Price reflects NYC departure, other cities available.",
+        "saveAmount": "Save $110 with code",
+        "tinyInfo": "Gate 1 Travel",
+        "price": "649",
+        "linkToDeal": "See Deal",
+        "image": "https://i.imgur.com/3Bfnj1R.png"
+    },
+    "offers": [{
+        "location": "Cancun",
+        "description": "4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure, other cities available.",
+        "saveAmount": "Save up to 65%",
+        "tinyInfo": "CheapCaribbean.com",
+        "price": "689",
+        "linkToDeal": "See Deal",
+        "image": "https://i.imgur.com/woFusXt.png"
+    },
+    {
+        "location": "China",
+        "description": "Spend 7 nights in the heart of Hong Kong. Price reflects MIA departure, other cities available.",
+        "saveAmount": "Save up to 75%",
+        "tinyInfo": "CheapChina.com",
+        "price": "997",
+        "linkToDeal": "See Deal",
+        "image": "https://i.imgur.com/ZpeTZGS.jpg"
+    },
+    {
+        "location": "London",
+        "description": "5 days and 4 nights roaring with the soccer fans and drinking at local pubs. Price reflects FFL departure, other cities available.",
+        "saveAmount": "Save up to 47%",
+        "tinyInfo": "TravelLondon.com",
+        "price": "757",
+        "linkToDeal": "See deal",
+        "image": "https://i.imgur.com/DSqyJX0.png"
+    }]
+}

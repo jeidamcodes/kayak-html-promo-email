@@ -1,0 +1,397 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #E4E5EA !important;
+  background-color: #E4E5EA;
+}
+
+.header{
+  background: $primary-color;
+  background-color: $primary-color;
+  .columns{
+    padding-top: 20px;
+    padding-right: 20px !important;
+    padding-bottom: 20px;
+    padding-left: 20px !important;
+    .logo_white{
+      width: 128px;
+    }
+    .user_icon{
+      width: 32px;
+    }
+  }
+}
+
+.sub-header{
+  background: #D65700 !important;
+  background-color: #D65700;
+  .columns{
+    padding-top: 5px;
+    padding-right: 5px !important;
+    padding-bottom: 5px;
+    padding-left: 5px !important;
+    a{
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      .icons{
+        width: 20px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+    .menu-divider{
+      display: block;
+      height: 20px;
+      width: 1px;
+      background: #FF690f;
+      background-color: #FF690f;
+    }
+    th{
+      text-align: center;
+    }
+  }
+}
+
+.deal_of_day{
+  background: #14191E;
+  background-color: #14191E;
+  .columns{
+    th{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  img{
+    padding-bottom: 20px;
+  }
+  h2{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  p{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  span{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    &.save_amount{
+      font-size: 14px;
+    }
+    &.tiny_info{
+      font-size: 10px;
+      font-weight: 300;
+      padding-bottom: 10px;
+    }
+    &.price{
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+  }
+  .button{
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 0 auto;
+    &:hover{
+      color: $primary-color;
+    }
+  }
+}
+
+.content-area{
+  background: #F1F4F7;
+  background-color: #F1F4F7;
+  & > tbody > tr > th{
+    padding-top: 0 !important;
+  }
+  .first-offer{
+      padding-top: 16px !important;
+  }
+  .offer{
+    background: #ffffff;
+    background-color: #ffffff;
+    .columns{
+      th{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+      & > table {
+        max-width: 568px;
+        table-layout: fixed;
+      }
+    }
+    img{
+      padding-bottom: 20px;
+      padding-top: 10px;
+    }
+    h2{
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    p{
+      color: #3F525F;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    span{
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      display: block;
+      &.save_amount{
+        font-size: 14px;
+        color: #1A88F3;
+      }
+      &.tiny_info{
+        color: #3F525F;
+        font-size: 10px;
+        font-weight: 500;
+        padding-bottom: 10px;
+      }
+      &.price{
+        color: #3F525F;
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+    }
+    .button{
+      background-color: #14191E;
+      background: #14191E;
+      display: block;
+      width: 150px;
+      text-align: center;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border: 1px solid #ffffff;
+      border-radius: 5px !important;
+      color: #ffffff;
+      margin: 0 auto;
+      &:hover{
+        color: $primary-color;
+      }
+    }
+    &.last-offer{
+      .group-icons{
+        width: 190px !important;
+        margin: 0 auto !important;
+      }
+      h4{
+        color: #3F525F;
+        font-weight: 600 !important;
+        font-size: 16px;
+        text-align: center;
+        // padding-bottom: 20px;
+      }
+      p{
+        color: #3F525F;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        text-align: center;
+        padding-bottom: 20px !important;
+      }
+    }
+  }
+}
+
+.footer-top{
+  background-color: #222d37;
+  background: #222d37;
+  color: #ffffff;
+  & > tbody > tr > th{
+    vertical-align: middle;
+  }
+  & > tbody > tr > th{
+    padding-bottom: 25px !important;
+    padding-top: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  // th{
+  //   padding-bottom: 0 !important;
+  //   padding-top: 0 !important;
+  // }
+  .circle-logo{
+    display: block;
+    margin: 0 auto;
+  }
+  .call-to-action{
+    display: block;
+    font-size: 14px;
+    hyphens: none;
+    padding-left: 10px;
+  }
+  .info{
+    display: block;
+    font-size: 11px !important;
+    hyphens: none;
+    color: #ffffff;
+    padding-left: 10px;
+  }
+  .info-section > table > tbody > tr > th{
+    padding-left: 10px;
+    color: #ffffff;
+  }
+  .store-logos{
+    img{
+      height: 40px;
+      display: block;
+      margin: 0 auto;
+      width: 120px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+    }
+    .columns th{
+    }
+    & > table > tbody > tr > th > table > tbody > tr > th{
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.footer-social{
+  background-color: #14181c;
+  background: #14181c;
+  & > tbody > tr > th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  th{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .logo-section{
+    img{
+      width: 128px;
+    }
+  }
+  .social-icons{
+    img{
+      width: 32px;
+      display: block;
+      margin: 0 auto;
+      max-width: none !important;
+    }
+  }
+}
+
+.footer-menu{
+  background-color: #14181c;
+  background: #14181c;
+  border-bottom: 1px solid #2d3e4b;
+  border-top: 1px solid #2d3e4b;
+  .columns{
+    padding-top: 5px;
+    padding-right: 5px !important;
+    padding-bottom: 5px;
+    padding-left: 5px !important;
+    a{
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      .icons{
+        width: 20px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+    .menu-divider{
+      display: block;
+      height: 20px;
+      width: 1px;
+      background: #2d3e4b !important;
+      background-color: #2d3e4b !important;
+    }
+    th{
+      text-align: center;
+    }
+  }
+}
+
+.footer-bottom{
+  background-color: #14181c;
+  background: #14181c;
+  & > tbody> tr > th{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+  }
+  .lower-links{
+    & > tbody > tr > th > table > tbody > tr > th{
+      text-align: center;
+      a{
+        font-size: 12px;
+        color: #ffffff;
+        margin-right: 10px;
+        &:nth-child(4){
+          margin-right: 0;
+        }
+        &:hover{
+          color: $primary-color;
+        }
+      }
+    }
+  }
+  .privacy{
+    th{
+      padding-bottom: 0 !important;
+    }
+    & > tbody > tr > th > table > tbody > tr > th{
+      padding-bottom: 30px;
+    }
+    p{
+      color: #a0a1a3;
+      font-size: 10px;
+    }
+  }
+  .copyright, .address{
+    th{
+      padding-bottom: 0;
+    }
+    .columns{
+      & > table > tbody > tr > th{
+        color: #d0d0d1 !important;
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 0px;
+      }
+    }
+  }
+}
+
+@media all {
+  // typography
+    a:hover {color: #d65600 !important }
+}
